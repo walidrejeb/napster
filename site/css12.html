@@ -4,7 +4,9 @@
 <meta charset="utf-8">
 <title>The Box Model</title>
 <style>
-
+  * {
+    box-sizing: border-box;
+  }
 body {
   margin: 0;
   padding: 0;
@@ -13,11 +15,13 @@ body {
 
 #box {
   background-color: blue;
-  padding: 10PX 30px 10px 30px ;
-  border: 20px solid black;
-  margin: 40px;
+  padding: 10PX ;
+  border: 5px solid red;
   width: 300px;
-  box-sizing: border-box;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  overflow: ;
 }
 #content {
   background-color: #90EE90; /*green*/
@@ -31,12 +35,14 @@ h1 {
 </head>
 <body>
 
-<h1>Box Model</h1>
+<h1 style="color: white;">Box Model</h1>
 
 <div id="box">
-  <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+  <div id="content">Michael Joseph Jackson (August 29, 1958 – June 25, 2009) was an American singer, songwriter, and dancer. Dubbed the "King of Pop", he is regarded as one of the most significant cultural figures of the 20th century. Over a four-decade career, his contributions to music, dance, and fashion, along with his publicized personal life, made him a global figure in popular culture. Jackson influenced artists across many music genres; through stage and video performances </div>
 </div>
 
+<center><h1><a href="css13.html">Go to css13</a></h1>
+<center><h1><a href="css11.html">Go back to css11</a></h1>
 
 </body>
 </html>
