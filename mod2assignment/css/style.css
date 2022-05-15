@@ -5,7 +5,8 @@
 	width: 100%;
 }
 
-/* ---------  <for small size screens like a mobile phone ---------------- */
+/*small-size screens*/
+
 @media (max-width: 767px) {
 	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6,
 	.col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
@@ -61,8 +62,7 @@
 }
 
 
-/* ----------------------------------------------------------------------------*/
-/* For medium-sized windows*/
+/*medium-sized windows*/
 
 @media (min-width: 768px) and (max-width: 991px){
 	.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
@@ -118,9 +118,8 @@
 		width: 100%;
 	}
 }
+/*large windows*/
 
-/* ------------------------------------------------------------------- */
-/* for large-sized screens*/
 @media (min-width: 992px) {
 	.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6,
 	.col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
@@ -176,7 +175,7 @@
 }
 
 p, h1, h2 {
-	font-family: "Times New Roman", Times, serif;
+	font-family: "Times New Roman;", Times, serif;
 }
 
 section {
@@ -189,7 +188,7 @@ section > h2 {
 	margin-top: 0px;
 	top: 0px;
 	right: 0px;
-	width: 200px;
+	width: 150px;
 	text-align: center;
 }
 
@@ -200,7 +199,8 @@ section > p {
 div > h1 {
 	width: 100%;
 	text-align: center;
-	font-size: 175%;
+	font-size: 250%;
+	color: red;
 }
 
 h2 {
@@ -211,9 +211,6 @@ section, section > h2 {
 	border: 1px solid black;
 }
 
-.row {
-
-}
 
 #section-1 {
 	background-color: #00E1EF;
@@ -228,13 +225,13 @@ section, section > h2 {
 }
 
 #section-1 > h2 {
-	background-color: #FF8880;
+	background-color: #3EFF00;
 }
 
 #section-2 > h2 {
-	background-color: #FF80AA;
+	background-color: #FB00FF;
 }
 
 #section-3 > h2 {
-	background-color: #EC80FF;
+	background-color: #FF004D;
 }
