@@ -1,5 +1,5 @@
 * {
-	box-sizing: border-box; /*This is important, since content-box is the default one, the default browse style keeps 8px away from the browser window */
+	box-sizing: border-box; 
 }
 .row {
 	width: 100%;
